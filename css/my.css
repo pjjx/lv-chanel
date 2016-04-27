@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .{margin: 0;
   padding: 0;
   text-decoration:none; 
@@ -143,3 +144,61 @@
 	height: 400px;
 	
 }
+=======
+header .search img {
+	float:right;
+	width: 30%;
+	height: 30px;
+	margin-top: 10px;
+	line-height: 30px;
+	
+}
+#banner{
+	background:url(../img/img2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height:560px;
+    background-size:cover;
+}
+#banner .inner{
+	max-width: 300px;
+	left:300px;
+	position:relative;
+	top:360px;
+}
+#banner .inner .warp{
+	background:#EFEAEA;
+	filter:alpha(opacity:30);
+	opacity:0.3;
+	width:1100px;
+	height:100px;
+	position:absolute;
+	z-index: 0;
+}
+#banner .blue h1{
+
+	display:block;
+	color:#000000;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    font-weight: "微软黑体";
+	margin:0;
+	position:relative;
+	z-index: 1;
+	}
+		
+button{
+	border:none;
+	background:#6C5555;
+	color:#BFA69A;
+	padding:8px 38px 8px 38px;
+    width:auto;
+    margin:auto;
+    position:relative;
+    font-size:1em;
+    font-family: "楷体";
+    position:relative;
+	z-index: 1;
+	cursor: pointer;
+}
+>>>>>>> a49a1801a7a73067e151f5fcf9aa38a4c64c3ff8
