@@ -1,0 +1,160 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body,html{
+	width:100%;    
+}
+header{
+	height:50px;
+	width:100%;
+    background: #000;
+}
+
+header .logo{
+	color:#fff;
+	width:12%;	
+	height:100%;
+	line-height:50px;
+	//border:2px solid #234567;
+	float:left;
+	text-align: center;
+	font-family: Georgia,serif;
+	
+	font-size: 36px;
+}
+
+header .tab{
+	width:70%;
+	height:100%;
+	float:left;
+	
+}
+header ul{
+    list-style: none;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+}
+header ul li{
+	height:48px;
+	float:left;
+	text-align: center;
+    width:13%;
+    position: relative;
+
+}
+header ul li a{
+	text-decoration: none;
+	color:#fc2561;
+	font-size: 18px;
+	overflow: hidden ;
+}
+header ul li:hover{
+	border-bottom: 2px solid #fff;
+}
+
+header ul .cosmetics:hover .li-1{
+	display: block;
+}
+header ul .fundation:hover .li-2{
+	display: block;
+}
+header ul .skin-care:hover .li-3{
+	display: block;
+}
+header ul .cleaning:hover .li-4{
+	display: block;
+}
+header ul .salon:hover .li-5{
+	display: block;
+}
+header .li-1,.li-2,.li-3,.li-4,.li-5{
+	width:350%;
+	background: #000;
+	//border:2px solid #456;
+	height:250px;
+	display: none;
+}
+
+header ul li ul{
+	position: absolute;
+	top:50px;
+	left:0;
+	width: 100%;
+	float:left;
+	//margin-top:2px;
+	//border-right:2px dashed #fff;
+
+}
+header ul li ul li{
+	float:none;
+	width:100%;
+	background: #000;
+	
+	//border-right:2px dashed #fff;
+	//border-width:80%;
+}
+header ul li ul li:hover{
+	border-bottom: none;
+}
+header ul li ul li a:hover{
+	color:#E7095E;
+}
+header ul li ul li a{
+	color:#fff;
+}
+
+header ul li .li-1-img,.li-2-img,.li-3-img,.li-4-img,.li-5-img{	
+	float:right;	
+		
+	width:55.4%;	
+}
+.li-1-img,.li-2-img,.li-3-img,.li-4-img,.li-5-img img{
+	
+	//width:100%;
+	display:block;
+	padding:45px 30px;
+	text-align: center;
+}
+
+header .search{
+	width:12%;
+	height:100%;
+	//border:2px solid #fff;
+	float:left;
+}
+header .search input{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:3px solid grey;
+	float:left;
+	background: #000;
+	color:#fff;
+	margin:13px 0;
+	width:70%;
+}
+
+header .search img{
+	float:right;
+	width:30%;
+	height:30px;
+	margin-top:10px;
+	line-height:30px;
+}
+
+header .login{
+	width:5%;
+	height:50px;
+	//border:2px solid #fff;
+	float:right;
+	text-align: center;
+}
+header .login img{
+	margin-top: 10px;
+}
+//样式完结
+
